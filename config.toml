@@ -1,0 +1,17 @@
+baseURL = 'dummy.com'
+languageCode = 'en-us'
+title = 'Computational Quantum Science'
+relativeUrl = true
+summaryLength = 120
+
+[params]
+  author = "Markus Schmitt"
+  address = "Forschungszentrum Jülich GmbH | PGI-8 | Wilhelm-Johnen-Straße | 52425 Jülich"
+  email = "markus.schmitt@fz-juelich.de"
+  phone = "+49 2461/61-96965"
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  example = "examples"

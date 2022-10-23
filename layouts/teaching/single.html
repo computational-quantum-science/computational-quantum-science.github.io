@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container__text">
+  <div class="teaching-single__head">
+    {{ if (isset .Params "image") | and (not (eq .Params.image "")) }}
+    <img class="teaching-single__image" src="{{ .Params.image }}">
+    {{ end }}
+    <div class="teaching-single__info">
+      <span class="teaching-single__semester">{{.Params.Semester }} {{ .Date.Format "2006" }}</span>
+      <h1 class="teaching-single__title">{{ .Title }}</h1>
+      
+    </div>
+  </div>
+  <div class="teaching-single__author-date">
+    <span class="teaching-single__teachers">Taught by M. Schmitt
+      {{ if (isset .Params "collaborators") | and (not (eq .Params.collaborators "")) }}
+      together with
+      {{ .Params.collaborators }}
+      {{ end }}
+    </span>
+  </div>
+  <div class="teaching-single__content">
+    {{ $content := .Content }}
+    {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
+    {{ $content | safeHTML }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,21 @@
+{{ if isset . "align" }}
+<div class="publication-ref flex-align-{{ .align }}">
+{{ else }}
+<div class="publication-ref">
+{{ end }}
+    {{ if isset . "title" | and (not (eq .title ""))}}
+    <div class="publication-ref__title">
+        <a class="publication-list-single-link" href="{{ .permalink }}">{{ .title }}</a>
+    </div>
+    {{ end }}
+    <div class="publication-ref__authors">
+        {{ .authors }},
+    </div>
+    <div class="publication-ref__journal">
+        <a class="publication-ref-link" href="{{ .journalurl }}" target="_blank">{{ .journalref }}</a>
+        &nbsp
+        <a class="publication-ref-arXiv-link" href="https://arxiv.org/abs/{{ .arxiv }}" target="_blank">
+        <img class="publication-ref__arXiv-link__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
+        </a>
+    </div>
+</div>

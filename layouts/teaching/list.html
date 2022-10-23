@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div class="container__text">
+  <h1>Teaching activities</h1>
+  {{ range (.Site.GetPage "section" "teaching").Pages }}
+    <div class="teaching-list-item">
+      <p>
+        <span class="teaching-list__term">
+        {{ .Params.Semester }}
+        {{ .Params.Date.Format "2006" }}
+        </span>
+        <a class="teaching-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a>
+      </p>
+    </div>
+  {{ end }}
+  
+{{ end }}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="flexbox-container"> 
+    {{ range (.Site.GetPage "section" "people").Pages }}
+      {{ if eq .Params.Position "Group leader"}}
+        {{ partial "group_member.html" . }}
+      {{ end }}
+    {{ end }}
+    {{ range (.Site.GetPage "section" "people").Pages }}
+      {{ if eq .Params.Position "PhD student"}}
+        {{ partial "group_member.html" . }}
+      {{ end }}
+    {{ end }}
+    {{ range (.Site.GetPage "section" "people").Pages }}
+      {{ if eq .Params.Position "Master student"}}
+        {{ partial "group_member.html" . }}
+      {{ end }}
+  {{ end }}
+  </div>
+{{ end }}

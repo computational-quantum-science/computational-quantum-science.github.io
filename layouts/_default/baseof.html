@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head-meta.html" . }}
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Prompt:wght@700&display=swap" rel="stylesheet">
+  {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+</head>
+<body class="page">
+    {{ partial "nav.html" }}
+    <main class="main-content">
+      <div class="container">
+        <div class="page-content">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </div>
+  </main>
+  {{ partial "footer.html" }}
+</body>
+</html>

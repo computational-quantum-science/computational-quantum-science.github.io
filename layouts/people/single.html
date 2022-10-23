@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <div class="people-single">
+    <div class="people-single__info">
+      <p class="people-single__name">{{ .Title }}</p>
+      <p class="people-single__position">{{ .Params.Position }}</p>
+      <div class="people-single__resources">
+        <!-- Google scholar -->
+        {{ if (isset .Params "googlescholar") | and (not (eq .Params.googlescholar "")) }}
+          <a href="{{ .Params.googlescholar }}" target="_blank">
+          <img class="people-single__resources__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/2048px-Google_Scholar_logo.svg.png">
+          </a>
+        {{ end }}
+        <!-- arXiv -->
+        {{ if (isset .Params "arxiv") | and (not (eq .Params.arxiv "")) }}
+          <a href="{{ .Params.arxiv }}" target="_blank">
+          <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
+          </a>
+        {{ end }}
+        <!-- GitHub -->
+        {{ if (isset .Params "github") | and (not (eq .Params.github "")) }}
+        <a href="{{ .Params.github }}" target="_blank">
+        <img class="people-single__resources__icon" src="/images/people/icons/GitHub-Mark-32px.png">
+        </a>
+      {{ end }}
+      </div>
+    </div>
+    {{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
+      <img class="people-single__portrait" src="/images/people/no_portrait.svg">
+    {{ else }}
+      <img class="people-single__portrait" src="{{ .Params.image }}">
+    {{ end }}
+  </div>
+  <div class="people-single__content">
+  {{ $content := .Content }}
+  {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
+  {{ $content | safeHTML }}
+  </div>
+{{ end }}

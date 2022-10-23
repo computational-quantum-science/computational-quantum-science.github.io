@@ -1,0 +1,17 @@
+<div class="research-highlight">
+    {{ if (isset .Params "image") | and (not (eq .Params.image "")) }}
+    <img class="research-highlight__image" src="{{ .Params.image }}">
+    {{ end }}
+    <div class="research-highlight__info">
+        <h2 class="research-highlight__title">{{ .Title }}</h2>
+        
+        <div class="research-highlight__content">
+            {{ .Params.Summary }}
+            <a href="{{ .Permalink }}">Read more...</a>
+        </div>
+        <div class="research-highlight__reference">
+            <!-- {{ .Params.authors }},  -->
+            <a href="{{ .Params.journalurl }}" target="_blank">{{ .Params.journalref }}</a>
+        </div>
+    </div>
+</div>

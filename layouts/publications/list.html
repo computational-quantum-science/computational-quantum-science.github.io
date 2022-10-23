@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <div class="container__text">
+  <h1>Preprints</h1>
+  {{ range (.Site.GetPage "section" "publications").Pages }}
+    {{ if .Params.Preprint }}
+      <div class="preprint-list-item">
+        <p><a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a></p>
+        <p>
+          {{ .Params.Authors }}, <i>arXiv:{{ .Params.arxiv }}</i>
+          <a class="publication-list-arXiv-link" href="https://arxiv.org/abs/{{ .Params.arxiv }}" target="_blank">
+            <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
+          </a>
+        </p>
+      </div>
+    {{end}}
+  {{ end }}
+  <h1>Publications</h1>
+  {{ $pub_list := (.Site.GetPage "section" "publications").Pages }}
+  {{ range $year := (seq (.Date.Format "2006") -1 2015) }}
+    <h2>{{ $year }}</h2>
+    {{ range $pub_list }}
+      {{ if not .Params.Preprint }}
+        {{ if eq .Params.Year $year }}
+          {{ partial "partials/publication_ref.html" 
+            (dict "title" .Title
+                  "permalink" .Permalink
+                  "authors" .Params.authors 
+                  "journalurl" .Params.Journalurl 
+                  "journalref" .Params.Journalref 
+                  "arxiv" .Params.arxiv) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </div>
+  
+{{ end }}

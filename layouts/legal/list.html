@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="container__text">
+    <h1>Contact</h1>
+    <p><b>{{ .Site.Params.Author }}</b></p>
+    <p>{{ .Site.Params.Address }}</p>
+    <p><a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a></p>
+    <p>{{ .Site.Params.Phone }}</p>
+    
+  {{ .Content }}
+  </div>
+{{ end }}

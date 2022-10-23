@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container__text">
+  <div class="home-page-heading">
+    <div class="home-page-heading__subtitle">R e s e a r c h &nbsp G r o u p</div>
+    <div class="home-page-heading__title">{{ site.Title }}</div>
+    <hr>
+  </div>
+  <div class="home-page-intro">
+  {{ .Content }}
+  </div>
+  <h1>News</h1>
+  {{ range (.Site.GetPage "section" "news").Pages }}
+  <div class="news-list-item">
+    <span class="news-list-item__date"><i>{{ .Date.Format "January 2, 2006" }}</i></span>
+    <h3 class="news-list-item__title">{{ .Title }}</h3>
+    <p>
+      {{ $content := .Content }}
+      {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
+      {{ $content | safeHTML }}
+    </p>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }} 

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container__text">
+  <div class="publication-single__head">
+    {{ if (isset .Params "image") | and (not (eq .Params.image "")) }}
+    <img class="publication-single__image" src="{{ .Params.image }}">
+    {{ end }}
+    <div class="publication-single__info">
+      <h1 class="publication-single__title">{{ .Title }}</h1>
+    </div>
+  </div>
+  {{ partial "partials/publication_ref.html" 
+      (dict "authors" .Params.authors 
+            "journalurl" .Params.Journalurl 
+            "journalref" .Params.Journalref 
+            "arxiv" .Params.arxiv
+            "align" "right") }}
+  <div class="publication-single__content">
+    {{ $content := .Content }}
+    {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
+    {{ $content | safeHTML }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.28757mm"
+   height="102.28757mm"
+   viewBox="0 0 102.28757 102.28757"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="no_portrait.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.1562119"
+     inkscape:cx="246.92706"
+     inkscape:cy="195.03346"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="45"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid846"
+       originx="-43.729171"
+       originy="-17.270836" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.729172,-17.270836)">
+    <circle
+       style="fill:#00aad4;stroke:#56b8da;stroke-width:2.5"
+       id="path1080"
+       cx="94.872955"
+       cy="68.414619"
+       r="49.893784" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 52.916666,95.249999 c 0,0 7.937499,-15.875001 39.6875,-15.875 C 124.35417,79.375 137.58333,95.25 137.58333,95.25 126.14187,111.21073 110.73428,117.68435 95.822395,118.30399 80.910512,118.92364 65.807829,111.85862 52.916666,95.249999 Z"
+       id="path1390"
+       sodipodi:nodetypes="czcsc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.5"
+       id="path2078"
+       cx="95.081512"
+       cy="55.492817"
+       r="21.3962" />
+    <circle
+       style="fill:none;stroke:#56b8da;stroke-width:2.5"
+       id="circle2160"
+       cx="94.872955"
+       cy="68.414619"
+       r="49.893784" />
+  </g>
+</svg>
