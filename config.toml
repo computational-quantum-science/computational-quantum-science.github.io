@@ -1,8 +1,9 @@
-baseURL = 'dummy.com'
+baseURL = 'https://computational-quantum-science.github.io/ '
 languageCode = 'en-us'
 title = 'Computational Quantum Science'
 relativeUrl = true
 summaryLength = 120
+publishDir = "docs"
 
 [params]
   author = "Markus Schmitt"
