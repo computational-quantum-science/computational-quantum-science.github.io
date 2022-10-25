@@ -1,7 +1,12 @@
 <a href="{{ .Permalink }}">
 <div class="people-item flexbox-item">
 <!-- <img class="people-item__top" src="{{ .Params.image }}"> -->
+<!-- <img class="people-item__top" src="/images/people/no_portrait.svg"> -->
+{{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
 <img class="people-item__top" src="/images/people/no_portrait.svg">
+{{ else }}
+<img class="people-item__top" src="{{ .Params.image }}">
+{{ end }}
 <div class="people-item__bottom">
     <p class="people-item__name">{{ .Title }}</p>
     <p class="people-item__position">{{ .Params.Position }}</p>
