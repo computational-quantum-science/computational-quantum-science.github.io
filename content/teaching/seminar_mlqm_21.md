@@ -1,7 +1,7 @@
 ---
 title: "Seminar: Machine Learning Quantum Matter"
 date: 2021-03-05T17:19:06+02:00
-draft: true
+draft: false
 image: /media/teaching/seminar_mlqm_21/ml_seminar-200x300.png
 collaborators: "S. Trebst"
 current: false

@@ -14,6 +14,7 @@
       </div>
     {{end}}
   {{ end }}
+  <br>
   <h1>Publications</h1>
   {{ $pub_list := (.Site.GetPage "section" "publications").Pages }}
   {{ range $year := (seq (.Date.Format "2006") -1 2015) }}
