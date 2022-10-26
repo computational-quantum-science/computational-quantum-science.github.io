@@ -30,7 +30,7 @@
       <img class="people-single__portrait" src="{{ .Params.image }}">
     {{ end }}
   </div>
-  <div class="people-single__content">
+  <div class="people-single__content container__text">
   {{ $content := .Content }}
   {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
   {{ $content | safeHTML }}
