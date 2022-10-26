@@ -13,6 +13,12 @@ Devising efficient and broadly applicable schemes for the simulation of correlat
 
 The underlying idea is that the proven capabilities of neural networks in pattern recognition and generalization make them well-suited for the representation of many-body wave functions. Since neural networks are universal function approximators in the limit of large network sizes, arbitrary quantum states can be represented as NQS in principle. This means that NQS can render variational Monte Carlo techniques numerically exact, which were previously limited by the inductive bias of the chosen ansatz wave functions. The utility of NQS has been outlined in a number of fundamental works gauging their potential to overcome current limitations of other methods for both low-energy physics and non-equilibrium dynamics. In addition to expressiveness, NQS inherit the neural network’s amenability to leverage large-scale supercomputing resources. Therefore, NQS- based methods can allow us to push the boundaries of classical computing for quantum many-body simulations.
 
+## Revealing quantum dynamical universality with neural quantum states
+
+This is a talk given at the AMLD EPFL 2022 conference:
+
+{{< youtube y6bfc-qx9g0 >}}
+
 ## Directions
 
 At this point, a central obstacle to the further development is our limited understanding of what are good NQS architectures, how (quantum) information is encoded, and what generally defines their scope. Better illuminating these issues could have conceptual implications far beyond methodological progress – similar to tensor networks, which fundamentally shaped our current understanding of quantum information and condensed matter.
