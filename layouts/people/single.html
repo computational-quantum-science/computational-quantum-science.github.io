@@ -5,6 +5,12 @@
       <p class="people-single__position">{{ .Params.Position }}</p>
       <div class="people-single__resources">
         <!-- Google scholar -->
+        {{ if (isset .Params "email") | and (not (eq .Params.email "")) }}
+          <a href="mailto:{{ .Params.email }}">
+          <img class="people-single__resources__icon" src="/images/people/icons/mail.svg">
+          </a>
+        {{ end }}
+        <!-- Google scholar -->
         {{ if (isset .Params "googlescholar") | and (not (eq .Params.googlescholar "")) }}
           <a href="{{ .Params.googlescholar }}" target="_blank">
           <img class="people-single__resources__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/2048px-Google_Scholar_logo.svg.png">

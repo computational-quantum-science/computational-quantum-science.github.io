@@ -4,6 +4,7 @@ date: 2022-09-29T20:04:48+02:00
 draft: false
 position: "Master student"
 image: "/images/people/mo.png"
+email: ""
 googlescholar: ""
 github: ""
 arXiv: ""

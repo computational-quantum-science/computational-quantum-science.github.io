@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 type:
 image: ""
+email: ""
 googlescholar: ""
 github: ""
 arxiv: ""
