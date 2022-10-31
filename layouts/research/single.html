@@ -9,9 +9,7 @@
     </div>
   </div>
   <div class="research-single__content">
-    {{ $content := .Content }}
-    {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-    {{ $content | safeHTML }}
+    {{ .Content }}
   </div>
 </div>
 {{ end }}

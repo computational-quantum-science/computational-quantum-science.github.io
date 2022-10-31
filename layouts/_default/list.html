@@ -14,9 +14,7 @@
     <span class="news-list-item__date"><i>{{ .Date.Format "January 2, 2006" }}</i></span>
     <h3 class="news-list-item__title">{{ .Title }}</h3>
     <p>
-      {{ $content := .Content }}
-      {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-      {{ $content | safeHTML }}
+      {{ .Content }}
     </p>
   </div>
   {{ end }}
