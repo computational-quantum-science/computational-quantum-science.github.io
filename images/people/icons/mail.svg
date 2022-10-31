@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="55.245033mm"
+   height="53.806442mm"
+   viewBox="0 0 55.245033 53.806442"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="mail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.20802575"
+     inkscape:cx="-535.99133"
+     inkscape:cy="367.74293"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="44"
+     inkscape:window-y="63"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4215"
+       originx="-38.536014"
+       originy="-75.839382" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.536014,-75.839382)">
+    <rect
+       style="fill:#00aad4;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       id="rect846"
+       width="52.916672"
+       height="52.91666"
+       x="39.6875"
+       y="76.729164"
+       rx="2.8843513"
+       ry="3.4087787"
+       inkscape:export-filename="/Users/markus/Cloud/synology/Documents/helmholtz_yig/website/test/static/images/people/icons/mail.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.91042;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.6875,76.729167 22.489583,29.104163 c 3.175,3.175 6.085417,3.175 9.260417,0 L 92.604167,76.729167"
+       id="path3488"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/Users/markus/Cloud/synology/Documents/helmholtz_yig/website/test/static/images/people/icons/mail.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>
