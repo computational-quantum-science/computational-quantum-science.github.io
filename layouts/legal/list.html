@@ -3,7 +3,7 @@
     <h1>Contact</h1>
     <p><b>{{ .Site.Params.Author }}</b></p>
     <p>{{ .Site.Params.Address }}</p>
-    <p><a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a></p>
+    <p>{{ partial "obfuscate.html" (dict "email" .Site.Params.Email "link" .Site.Params.Email ) }}</p>
     <p>{{ .Site.Params.Phone }}</p>
     
   {{ .Content }}

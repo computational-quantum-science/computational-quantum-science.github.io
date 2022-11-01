@@ -4,11 +4,9 @@
       <p class="people-single__name">{{ .Title }}</p>
       <p class="people-single__position">{{ .Params.Position }}</p>
       <div class="people-single__resources">
-        <!-- Google scholar -->
+        <!-- Email scholar -->
         {{ if (isset .Params "email") | and (not (eq .Params.email "")) }}
-          <a href="mailto:{{ .Params.email }}">
-          <img class="people-single__resources__icon" src="/images/people/icons/mail.svg">
-          </a>
+          {{ partial "obfuscate.html" (dict "email" .Params.email "link" "<img class='people-single__resources__icon' src='/images/people/icons/mail.svg'>") }}
         {{ end }}
         <!-- Google scholar -->
         {{ if (isset .Params "googlescholar") | and (not (eq .Params.googlescholar "")) }}
