@@ -4,7 +4,7 @@ date: 2022-09-29T20:04:23+02:00
 draft: false
 position: "Group leader"
 image: ""
-email: "markus.schmitt@fz-juelich.de"
+email: "bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ=="
 googlescholar: "https://scholar.google.com/citations?user=wwXaP_cAAAAJ&hl=de"
 arxiv: "https://arxiv.org/a/schmitt_m_1.html"
 github: "https://github.com/markusschmitt"

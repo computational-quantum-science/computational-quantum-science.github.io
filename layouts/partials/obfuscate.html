@@ -1,5 +1,8 @@
 {{ $prefix := ( "mailto:" | htmlEscape | markdownify | base64Encode) }}
-{{ $encoded := ( .email | htmlEscape | base64Encode) }}
+{{ $encoded := .email }}
+{{ if (isset . "encode") | and (eq .encode "true")}}
+  {{ $encoded = ( .email | htmlEscape | base64Encode) }}
+{{ end }}
 {{ $halfLength := div (len $encoded) 2 }}
 {{ $part1 := substr $encoded 0 $halfLength }}
 {{ $part2 := substr $encoded $halfLength }}

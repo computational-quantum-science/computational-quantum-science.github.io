@@ -4,7 +4,7 @@ date: 2022-09-29T20:04:39+02:00
 draft: false
 position: "PhD student"
 image: "/images/people/wladi.png"
-email: ""
+email: "dy5rcmluaXRzaW5AZnotanVlbGljaC5kZQ=="
 googlescholar: ""
 github: ""
 arXiv: ""
