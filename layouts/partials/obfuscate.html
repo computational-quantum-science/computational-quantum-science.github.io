@@ -1,8 +1,8 @@
-{{ $encoded := ( .email | printf "%s%s" "mailto:" | htmlEscape | markdownify | base64Encode) }}
+{{ $prefix := ( "mailto:" | htmlEscape | markdownify | base64Encode) }}
+{{ $encoded := ( .email | htmlEscape | base64Encode) }}
 {{ $halfLength := div (len $encoded) 2 }}
 {{ $part1 := substr $encoded 0 $halfLength }}
 {{ $part2 := substr $encoded $halfLength }}
-{{ $encoded_link := ( .link | htmlEscape | markdownify | base64Encode) }}
 <span id="mangled_{{ md5 $encoded }}">[ OBFUSCATED ]</span>
 <script>
   (() => {
@@ -11,7 +11,12 @@
         "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join(""));
     document.addEventListener("DOMContentLoaded", () => {
       let element = document.getElementById("mangled_{{ md5 $encoded }}");
-      element.innerHTML = "<a href='"+base64ToUnicode({{ $part1 }} + {{ $part2 }})+"'>"+base64ToUnicode({{ $encoded_link }})+"</a>";
+      element.innerHTML = "<a href='"+base64ToUnicode({{$prefix}})+base64ToUnicode({{ $part1 }} + {{ $part2 }})+"'>"
+      {{ if (isset . "link") }}
+         + {{ .link }} + "</a>";
+      {{ else }}
+         + base64ToUnicode({{ $part1 }} + {{ $part2 }}) + "</a>";
+      {{ end }}
     });
   })();
 </script>
