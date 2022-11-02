@@ -468,6 +468,28 @@ hr {
   &__year {
     padding: 10px 0;
   }
+
+  &__year-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    &__link {
+      flex-direction: column;
+      padding: 2px 5px;
+      margin: 2px;
+      background-color: $bg-nav;//$link-bl;
+      border-radius: 4px;
+      color: white;
+
+      // & a {
+      //   color: white;
+      // }
+      
+    }
+
+  }
+
 }
 
 .publication-single {
