@@ -213,7 +213,7 @@ hr {
 }
 
 .news-list-item {
-    width: $text-block-width;
+    max-width: $text-block-width;
     margin: auto;
     margin-bottom: 35px;
     margin-top: 5px;
@@ -931,6 +931,7 @@ hr {
 
 /* Tablet menu */
 @media (min-width: 768px){
+  $text-block-width: 90vh;
 
   .post-preview {
     display: flex;
@@ -1080,7 +1081,7 @@ hr {
  
 }
 
-// For sticky navbar
+/* For sticky navbar */
 .sticky {
 	position: -webkit-sticky;
 	position: sticky;
