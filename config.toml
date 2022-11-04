@@ -1,4 +1,4 @@
-baseURL = 'https://computational-quantum-science.github.io/'
+baseURL = 'https://www.computational-quantum.science/'
 languageCode = 'en-us'
 title = 'Computational Quantum Science'
 relativeUrl = true
