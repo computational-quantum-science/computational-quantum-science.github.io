@@ -6,26 +6,34 @@
       <div class="people-single__resources">
         <!-- Email scholar -->
         {{ if (isset .Params "email") | and (not (eq .Params.email "")) }}
+          <div class="people-single__resources__item">
           {{ partial "obfuscate.html" (dict "email" .Params.email "link" "<img class='people-single__resources__icon' src='/images/people/icons/mail.svg'>") }}
+          </div>
         {{ end }}
         <!-- Google scholar -->
         {{ if (isset .Params "googlescholar") | and (not (eq .Params.googlescholar "")) }}
-          <a href="{{ .Params.googlescholar }}" target="_blank">
-          <img class="people-single__resources__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/2048px-Google_Scholar_logo.svg.png">
-          </a>
+          <div class="people-single__resources__item">
+            <a href="{{ .Params.googlescholar }}" target="_blank">
+            <img class="people-single__resources__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/2048px-Google_Scholar_logo.svg.png">
+            </a>
+          </div>
         {{ end }}
         <!-- arXiv -->
         {{ if (isset .Params "arxiv") | and (not (eq .Params.arxiv "")) }}
-          <a href="{{ .Params.arxiv }}" target="_blank">
-          <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
-          </a>
+          <div class="people-single__resources__item">
+            <a href="{{ .Params.arxiv }}" target="_blank">
+            <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
+            </a>
+          </div>
         {{ end }}
         <!-- GitHub -->
         {{ if (isset .Params "github") | and (not (eq .Params.github "")) }}
-        <a href="{{ .Params.github }}" target="_blank">
-        <img class="people-single__resources__icon" src="/images/people/icons/GitHub-Mark-32px.png">
-        </a>
-      {{ end }}
+          <div class="people-single__resources__item">
+            <a href="{{ .Params.github }}" target="_blank">
+            <img class="people-single__resources__icon" src="/images/people/icons/GitHub-Mark-32px.png">
+            </a>
+          </div>
+        {{ end }}
       </div>
     </div>
     {{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
