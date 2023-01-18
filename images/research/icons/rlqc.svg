@@ -27,13 +27,13 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.1847632"
-     inkscape:cx="208.05846"
-     inkscape:cy="166.69999"
+     inkscape:zoom="2.7201795"
+     inkscape:cx="98.706722"
+     inkscape:cy="234.72716"
      inkscape:window-width="1344"
      inkscape:window-height="847"
-     inkscape:window-x="80"
-     inkscape:window-y="30"
+     inkscape:window-x="1033"
+     inkscape:window-y="327"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -323,6 +323,10 @@
        d="m 96.300755,118.46719 c 14.712895,-1.18094 26.438175,-7.18803 35.679215,-17.20812 7.22077,-9.12809 12.07335,-18.395484 12.15619,-27.943452 l 6.78852,0.947235 1.10511,59.675857 -53.203071,-7.26215 z"
        id="path30668"
        sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#fffff8;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 48.592515,88.275646 3.987942,6.905948 -4.216336,-1.199997 z"
+       id="path997" />
     <circle
        style="fill:none;stroke:#56b8da;stroke-width:2.5"
        id="circle2160"
