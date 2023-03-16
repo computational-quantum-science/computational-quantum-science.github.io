@@ -2,7 +2,7 @@
 title: "Wave function network description and Kolmogorov complexity of quantum many-body systems"
 date: 2023-02-01T08:56:04+01:00
 draft: false
-image: "images/publications/wave_function_nets.png"
+image: "media/publications/21_wave_function_nets/wave_function_nets.png"
 authors: T. Mendes-Santos, M. Schmitt, A. Angelone, A. Rodriguez, P. Scholl, H. J. Williams, D. Barredo, T. Lahaye, A. Browaeys, M. Heyl, and M. Dalmonte
 preprint: true
 journalref:
