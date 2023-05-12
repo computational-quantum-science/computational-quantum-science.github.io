@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-type:
+position: ""
 image: ""
 email: ""
 googlescholar: ""
