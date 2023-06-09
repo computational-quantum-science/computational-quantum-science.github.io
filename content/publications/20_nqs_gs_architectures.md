@@ -2,15 +2,15 @@
 title: "Optimizing Design Choices for Neural Quantum States"
 date: 2023-01-18T09:19:57+01:00
 draft: false
-image: 
+image: "/media/publications/20_nqs_gs_architectures/20_nqs_gs_architectures.png" 
 authors: "Moritz Reh, Markus Schmitt, and Martin Gärttner" 
-preprint: true
-journalref:
-journalurl:
+preprint: false
+journalref: Phys. Rev. B 107, 195115 (2023)
+journalurl: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.195115
 year: 2023
 arXiv: 2301.06788
 highlight: false
-tags:
+tags: NQS
 categories:
 ---
 
