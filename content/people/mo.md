@@ -2,7 +2,7 @@
 title: "Mo Abedi"
 date: 2022-09-29T20:04:48+02:00
 draft: false
-position: "Master student"
+position: "PhD student"
 image: "/images/people/mo.png"
 email: "bS5hYmVkaUBmei1qdWVsaWNoLmRl"
 googlescholar: ""
