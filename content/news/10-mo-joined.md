@@ -1,5 +1,5 @@
 ---
-title: "Mo "
+title: "Mo graduated and continues to pursue a PhD"
 date: 2023-06-01T11:53:05+02:00
 draft: false
 ---
