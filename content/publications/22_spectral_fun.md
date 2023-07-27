@@ -2,14 +2,14 @@
 title: "Highly resolved spectral functions of two-dimensional systems with neural quantum states"
 date: 2023-03-16T13:07:08+01:00
 draft: false
-image: 
+image: "/media/publications/22_spectral_fun/spectral_ann.png" 
 authors: Tiago Mendes-Santos, Markus Schmitt, Markus Heyl
-preprint: true
-journalref:
-journalurl:
+preprint: false
+journalref: "Phys. Rev. Lett. 131, 046501 (2023)"
+journalurl: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.046501"
 year: 2023
 arXiv: 2303.08184
-highlight: false
+highlight: true
 tags:
 categories:
 ---
