@@ -6,6 +6,11 @@
       {{ end }}
     {{ end }}
     {{ range (.Site.GetPage "section" "people").Pages }}
+      {{ if eq .Params.Position "Postdoc"}}
+        {{ partial "group_member.html" . }}
+      {{ end }}
+    {{ end }}
+    {{ range (.Site.GetPage "section" "people").Pages }}
       {{ if eq .Params.Position "PhD student"}}
         {{ partial "group_member.html" . }}
       {{ end }}
