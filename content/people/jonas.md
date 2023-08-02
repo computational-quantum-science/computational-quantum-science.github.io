@@ -1,7 +1,7 @@
 ---
 title: "Jonas Rigo"
 date: 2023-08-01T09:50:51+02:00
-draft: true
+draft: false
 position: "Postdoc"
 image: ""
 email: "ai5yaWdvQGZ6LWp1ZWxpY2guZGU="
