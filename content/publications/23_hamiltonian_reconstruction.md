@@ -1,5 +1,5 @@
 ---
-title: "Reconstructing effective Hamiltonians from nonequilibrium (pre-)thermal steady states "
+title: "Reconstructing effective Hamiltonians from nonequilibrium (pre-)thermal steady states"
 date: 2023-08-21T09:06:28+02:00
 draft: false
 image: "/media/publications/23_hamiltonian_reconstruction/hamiltonian_reconstruction.png" 
