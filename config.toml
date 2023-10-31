@@ -5,10 +5,11 @@ relativeUrl = true
 summaryLength = 120
 
 [params]
-  author = "Markus Schmitt"
   address = "Forschungszentrum Jülich GmbH | PGI-8 | Wilhelm-Johnen-Straße | 52425 Jülich"
-  email = "bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ=="
   phone = "+49 2461/61-96965"
+[params.author]
+  name = "Markus Schmitt"
+  email = "bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ=="
 [params.publications]
   startYear = 2015
 

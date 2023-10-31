@@ -1,9 +1,9 @@
 {{ define "main" }}
   <div class="container__text">
     <h1>Contact</h1>
-    <p><b>{{ .Site.Params.Author }}</b></p>
+    <p><b>{{ .Site.Params.author.name }}</b></p>
     <p>{{ .Site.Params.Address }}</p>
-    <p>{{ partial "obfuscate.html" (dict "email" .Site.Params.Email ) }}</p>
+    <p>{{ partial "obfuscate.html" (dict "email" .Site.Params.author.email ) }}</p>
     <p>{{ .Site.Params.Phone }}</p>
     
   {{ .Content }}
