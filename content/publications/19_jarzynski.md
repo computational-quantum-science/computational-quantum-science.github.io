@@ -1,15 +1,16 @@
 ---
-title: "Verification of the Quantum Jarzynski Equality on Digital Quantum Computers"
+title: "Quantum Many-Body Jarzynski Equality and Dissipative Noise on a Digital Quantum Computer"
 date: 2022-10-03T16:20:41+02:00
 draft: false
-image: 
+image: "/media/publications/19_jarzynski/jarzynski.png"
 authors: "Dominik Hahn, Maxime Dupont, Markus Schmitt, David J. Luitz, Marin Bukov"
-preprint: true
-journalref: ""
-journalurl: ""
-year: 2022
+preprint: false
+journalref: "Phys. Rev. X 13, 041023 (2023)"
+journalurl: "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.13.041023"
+year: 2023
 arXiv: 2207.14313
-highlight: false
+highlight: true
+summary: "We explored fluctuations occuring in non-equilibrium processes implemented on a quantum processor, veryfying, for example, the Jarzynski equality in the regime of many interacting qubits."
 tags:
 categories:
 ---
