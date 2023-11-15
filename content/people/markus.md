@@ -13,6 +13,7 @@ github: "https://github.com/markusschmitt"
 ## Short CV
 |          |                                                                           |
 |:----------|:---------------------------------------------------------------------------|
+|since 2023 | *Independent research group leader at [University of Regensburg](https://www.uni-regensburg.de/informatik-data-science/fakultaet/startseite/index.html)* |
 |since 2022 | *Junior group leader at [FZ Jülich (PGI-8)](https://www.fz-juelich.de/de/pgi/pgi-8)* |
 |2020-2022  | *Postdoc at [University of Cologne](https://www.thp.uni-koeln.de)*                            |
 |2018-2020  | *Postdoc at [UC Berkeley](https://cmt.berkeley.edu/) ([Leopoldina Felloship](https://www.leopoldina.org))*|
