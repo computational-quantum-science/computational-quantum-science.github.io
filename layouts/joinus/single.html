@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container__text">
+  <div class="research-single__head">
+    <!-- {{ if (isset .Params "image") | and (not (eq .Params.image "")) }}
+    <img class="research-single__image" src="{{ .Params.icon }}">
+    {{ end }} -->
+    <div class="research-single__info">
+      <h1 class="research-single__title">{{ .Title }}</h1>
+    </div>
+  </div>
+  <div class="research-single__content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

@@ -18,11 +18,11 @@
   <h1>Publications</h1>
   {{ $pub_list := (.Site.GetPage "section" "publications").Pages }}
   <div class="publication-list__year-list">
-  {{ range $year := (seq (.Date.Format "2006") -1 .Site.Params.Publications.startYear) }}
+  {{ range $year := (seq (now.Year) -1 .Site.Params.Publications.startYear) }}
   <a href="#{{ $year }}"><div class="publication-list__year-list__link">{{ $year }}</div></a>
   {{ end }}
   </div>
-  {{ range $year := (seq (.Date.Format "2006") -1 .Site.Params.Publications.startYear) }}
+  {{ range $year := (seq (now.Year) -1 .Site.Params.Publications.startYear) }}
     <h2 class="publication-list__year" id="{{ $year }}">{{ $year }}</h2>
     {{ range $pub_list }}
       {{ if not .Params.Preprint }}

@@ -1,13 +1,13 @@
 ---
-title: "Reconstructing effective Hamiltonians from nonequilibrium (pre-)thermal steady states"
+title: "Reconstructing effective Hamiltonians from nonequilibrium thermal and prethermal steady states"
 date: 2023-08-21T09:06:28+02:00
 draft: false
 image: "/media/publications/23_hamiltonian_reconstruction/hamiltonian_reconstruction.png" 
 authors: S. Nandy, M. Schmitt, M. Bukov, Z. Lenarčič
-preprint: true
-journalref:
-journalurl:
-year: 2023
+preprint: false
+journalref: Phys. Rev. Research 6, 023160 (2024)
+journalurl: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.023160
+year: 2024
 arXiv: 2308.08608 
 highlight: false
 tags:
