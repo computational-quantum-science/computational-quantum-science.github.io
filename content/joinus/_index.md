@@ -12,4 +12,4 @@ Are you looking for an opportunity to dive into research at the intersection of 
 
 While we have no formal openings for PhD or Postdoc positions at this point, applications by qualified and motivated candidates are always welcome.
 
-If you would like to join us for a Bachelor's or Master's project, have a look at the suggested topics below and contact us to discuss possible directions.
+If you would like to join us for a Bachelor's or Master's project, have a look at the suggested topics below and contact us to discuss possible directions. When you send a request, please include your CV, a current transcript of records, and previous certificates.
