@@ -4,12 +4,12 @@ date: 2023-02-01T08:56:04+01:00
 draft: false
 image: "/media/publications/21_wave_function_nets/wave_function_nets.png"
 authors: T. Mendes-Santos, M. Schmitt, A. Angelone, A. Rodriguez, P. Scholl, H. J. Williams, D. Barredo, T. Lahaye, A. Browaeys, M. Heyl, and M. Dalmonte
-preprint: true
-journalref:
-journalurl:
-year: 2023
+preprint: false
+journalref: Phys. Rev. X 14, 021029 (2024)
+journalurl: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.021029
+year: 2024
 arXiv: 2301.13216
-highlight: false
+highlight: true
 tags:
 categories:
 ---
