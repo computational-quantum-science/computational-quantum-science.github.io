@@ -27,13 +27,17 @@
   <div class="container__text">
     <hr>
     <h2>Open projects</h2>
-    {{ $num_pages := (len (.Site.GetPage "section" "open_project").Pages) }}
+    <i>Notice: You can conduct your final project for physics degrees in our group, even though we are based in the computer science department.</i>
+    {{ $subsection := .Site.GetPage "joinus/projects" }}
+    {{ $num_pages := (len $subsection.RegularPages) }}
     {{ if eq $num_pages 0 }}
       There are currently no concrete projects. If you have an own idea, or if you would nonetheless like to discuss options, do not hesitate to get in touch.
     {{ else }}
-      {{ range (.Site.GetPage "section" "open_project").Pages }}
+      {{ range $subsection.RegularPages }}
         {{ if .Params.active }}
-          {{ partial "open_project.html" . }}
+          <div class="joinus-list__title">
+            <a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
         {{ end }}
       {{ end }}
     {{ end }}
