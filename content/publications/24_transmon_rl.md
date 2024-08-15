@@ -4,10 +4,10 @@ date: 2023-11-09T09:40:55+01:00
 draft: false
 image: 
 authors: H.N. Nguyen, F. Motzoi, M. Metcalf, K.B. Whaley, M. Bukov, M. Schmitt
-preprint: true
-journalref:
-journalurl:
-year: 2023
+preprint: false
+journalref: Machine Learning: Science and Technology 5, 025066 (2024)
+journalurl: https://doi.org/10.1088/2632-2153/ad4f4d
+year: 2024
 arXiv: 2311.03684
 highlight: false
 tags:
