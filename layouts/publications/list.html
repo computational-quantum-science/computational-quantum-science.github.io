@@ -1,18 +1,22 @@
 {{ define "main" }}
   <div class="container__text">
-  <h1>Preprints</h1>
-  {{ range (.Site.GetPage "section" "publications").Pages }}
-    {{ if .Params.Preprint }}
-      <div class="preprint-list-item">
-        <p><a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a></p>
-        <p>
-          {{ .Params.Authors }}, <i>arXiv:{{ .Params.arxiv }}</i>
-          <a class="publication-list-arXiv-link" href="https://arxiv.org/abs/{{ .Params.arxiv }}" target="_blank">
-            <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
-          </a>
-        </p>
-      </div>
-    {{end}}
+  {{ $preprint_list := .Site.GetPage "publications" }}
+  {{ $num_preprints := len (where $preprint_list.RegularPages "Params.preprint" "==" true)}}
+  {{ if gt $num_preprints 0 }}
+    <h1>Preprints</h1>
+    {{ range (.Site.GetPage "section" "publications").Pages }}
+      {{ if .Params.Preprint }}
+        <div class="preprint-list-item">
+          <p><a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a></p>
+          <p>
+            {{ .Params.Authors }}, <i>arXiv:{{ .Params.arxiv }}</i>
+            <a class="publication-list-arXiv-link" href="https://arxiv.org/abs/{{ .Params.arxiv }}" target="_blank">
+              <img class="people-single__resources__icon" src="https://static.arxiv.org/static/browse/0.3.4/images/icons/favicon.ico">
+            </a>
+          </p>
+        </div>
+      {{end}}
+    {{ end }}
   {{ end }}
   <br>
   <h1>Publications</h1>

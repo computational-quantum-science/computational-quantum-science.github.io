@@ -9,7 +9,7 @@
   {{ .Content }}
   </div>
   <h1>News</h1>
-  {{ range (.Site.GetPage "section" "news").Pages }}
+  {{ range first 10 (.Site.GetPage "section" "news").Pages }}
   <div class="news-list-item">
     <span class="news-list-item__date"><i>{{ .Date.Format "January 2, 2006" }}</i></span>
     <h3 class="news-list-item__title">{{ .Title }}</h3>

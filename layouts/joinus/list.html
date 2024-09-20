@@ -9,37 +9,43 @@
     <h2>Open positions</h2>
     {{ $subsection := .Site.GetPage "joinus/jobs" }}
     {{ $num_pages := (len $subsection.RegularPages) }}
-    {{ if eq $num_pages 0 }}
-      We have no openings at this point. 
-      If you are nonetheless eager to join our team, we are always open to discuss possibilities to acquire dedicated funding for your position. 
-      Don't hesitate to get in touch.
+    {{ $active_openings := len (where $subsection.RegularPages "Params.active" "==" true) }}
+    {{ if eq $active_openings 0 }}
+      <p>We have no openings at this point.</p>
+      <p>If you are nonetheless eager to join our team, we are always open to discuss possibilities to acquire dedicated funding for your position.</p>
     {{ else }}
+      <ul>
       {{ range $subsection.RegularPages }}
         {{ if .Params.active }}
           <div class="joinus-list__title">
-            <a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a>
+            <li><a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
           </div>
         {{ end }}
       {{ end }}
+      </ul>
     {{ end }}
   </div>
     <br>
   <div class="container__text">
     <hr>
     <h2>Open projects</h2>
-    <i>Notice: You can conduct your final project for physics degrees in our group, even though we are based in the computer science department.</i>
     {{ $subsection := .Site.GetPage "joinus/projects" }}
     {{ $num_pages := (len $subsection.RegularPages) }}
     {{ if eq $num_pages 0 }}
-      There are currently no concrete projects. If you have an own idea, or if you would nonetheless like to discuss options, do not hesitate to get in touch.
+      <p>There are currently no concrete projects.</p>
     {{ else }}
+      <p>We are currently seeking interested candidates to work on the following Bachelor or Master project(s):</p>
+      <ul>
       {{ range $subsection.RegularPages }}
         {{ if .Params.active }}
           <div class="joinus-list__title">
-            <a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a>
-          </div>
+            <li><a class="publication-list-single-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
+          </div> 
         {{ end }}
       {{ end }}
+      </ul>
     {{ end }}
+    <p>If you have an own idea, or if you would nonetheless like to discuss options, do not hesitate to get in touch.</p>
+    <p><i>Notice: You can conduct your final project for physics degrees in our group, even though we are based in the computer science department.</i></p>
   </div>
 {{ end }}
