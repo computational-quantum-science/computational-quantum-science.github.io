@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Computational Quantum Science</title><link>https://www.computational-quantum.science/people/</link><description>Recent content in People on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Thu, 19 Sep 2024 20:03:48 +0200</lastBuildDate><atom:link href="https://www.computational-quantum.science/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Moksh Bhateja</title><link>https://www.computational-quantum.science/people/moksh/</link><pubDate>Thu, 19 Sep 2024 20:03:48 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/moksh/</guid><description/></item><item><title>Jonas Rigo</title><link>https://www.computational-quantum.science/people/jonas/</link><pubDate>Tue, 01 Aug 2023 09:50:51 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/jonas/</guid><description>&lt;p>Hi, I’m Jonas and currently I am a Postdoc in the Computational Quantum Science Research Group. I am interested in quantum many-body physics, ranging from condensed matter systems to quantum simulators. In my research I investigate modern machine learning methods that can potentially provide unprecedented insights into quantum many-body systems. In my free time I enjoy yoga, books and all possible ways to get up and down a mountain.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Computational Quantum Science</title><link>https://www.computational-quantum.science/people/</link><description>Recent content in People on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Thu, 19 Sep 2024 20:04:39 +0200</lastBuildDate><atom:link href="https://www.computational-quantum.science/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Noé Salmeron</title><link>https://www.computational-quantum.science/people/noe/</link><pubDate>Thu, 19 Sep 2024 20:04:39 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/noe/</guid><description>&lt;p>Hi, I’m Noe!&lt;/p>
+&lt;p>I&amp;rsquo;m currently focused on developing efficient numerical techniques to simulate and study Floquet systems. My work involves leveraging machine learning methods, particularly neural network quantum states, together with theoretical insights to improve these simulations. More broadly, I’m interested in numerical approaches for studying complex systems in quantum physics.&lt;/p>
+&lt;h2 id="short-cv">Short CV&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2024&lt;/td>
+ &lt;td style="text-align: left">PhD student at University of Regensburg and IMPRS-QDC&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2022-2024&lt;/td>
+ &lt;td style="text-align: left">Master in physics at EPFL&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2019-2022&lt;/td>
+ &lt;td style="text-align: left">Bachelor in physics at EPFL&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Moksh Bhateja</title><link>https://www.computational-quantum.science/people/moksh/</link><pubDate>Thu, 19 Sep 2024 20:03:48 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/moksh/</guid><description>&lt;p>Hello!! I&amp;rsquo;m Moksh, a master&amp;rsquo;s student with academic interests in theoretical and computational condensed matter physics, the dynamics of quantum many-body systems, and machine learning. Currently, I am researching the evolution and dynamics of quantum systems, focusing on the spatial and temporal behavior of entanglement in many-body systems through an information theory framework. Recreationally, I enjoy watching movies, listening to music, traveling, swimming, and drawing portraits.&lt;/p>
+&lt;h2 id="short-cv">Short CV&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2024&lt;/td>
+ &lt;td style="text-align: left">Intern at FZ Jülich (PGI-8) and University of Regensburg, Germany&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2024&lt;/td>
+ &lt;td style="text-align: left">Intern at Queen&amp;rsquo;s University, Canada&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2024&lt;/td>
+ &lt;td style="text-align: left">Intern at Lille University &amp;amp; Sorbonne University, France&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2023&lt;/td>
+ &lt;td style="text-align: left">Intern at Jet Propulsion Laboratory - NASA, Caltech&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2020&lt;/td>
+ &lt;td style="text-align: left">B.Tech.+Masters in Solid State Physics at Indian institute of Space Science and Technology (IIST)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Jonas Rigo</title><link>https://www.computational-quantum.science/people/jonas/</link><pubDate>Tue, 01 Aug 2023 09:50:51 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/jonas/</guid><description>&lt;p>Hi, I’m Jonas and currently I am a Postdoc in the Computational Quantum Science Research Group. I am interested in quantum many-body physics, ranging from condensed matter systems to quantum simulators. In my research I investigate modern machine learning methods that can potentially provide unprecedented insights into quantum many-body systems. In my free time I enjoy yoga, books and all possible ways to get up and down a mountain.&lt;/p>
 &lt;h2 id="short-cv">Short CV&lt;/h2>
 &lt;table>
  &lt;thead>

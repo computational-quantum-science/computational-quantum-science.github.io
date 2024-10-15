@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computational Quantum Science</title><link>https://www.computational-quantum.science/</link><description>Recent content on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Fri, 20 Sep 2024 18:21:34 +0200</lastBuildDate><atom:link href="https://www.computational-quantum.science/index.xml" rel="self" type="application/rss+xml"/><item><title>Computational quantum dynamics</title><link>https://www.computational-quantum.science/teaching/24_computational_quantum_dynamics/</link><pubDate>Fri, 20 Sep 2024 18:21:34 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/teaching/24_computational_quantum_dynamics/</guid><description>&lt;p>Modern experiments employing ultrafast pump-probe techniques or quantum simulation are opening up the exciting realm of far-from-equilibrium quantum dynamics. These developments have directed theoretical attention to questions about thermalization, non-equilibrium phases of matter, and transient dynamical phenomena. Since analytical approaches are typically limited, numerical methods are key to understand the theoretical models. This lecture will cover a variety of computational tools for the simulation of quantum dynamics, namely:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computational Quantum Science</title><link>https://www.computational-quantum.science/</link><description>Recent content on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Thu, 03 Oct 2024 15:23:09 +0200</lastBuildDate><atom:link href="https://www.computational-quantum.science/index.xml" rel="self" type="application/rss+xml"/><item><title>Noé joined as new PhD student</title><link>https://www.computational-quantum.science/news/21-noe_joined/</link><pubDate>Thu, 03 Oct 2024 15:23:09 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/news/21-noe_joined/</guid><description>&lt;p>With the beginning of October, 
+
+&lt;a href="people/noe">Noé&lt;/a> joined our group as a new PhD student. He is going to work on our DFG project ``Machine Learning to Tailor Correlated States of Matter&amp;rsquo;'.&lt;/p></description></item><item><title>Computational quantum dynamics</title><link>https://www.computational-quantum.science/teaching/24_computational_quantum_dynamics/</link><pubDate>Fri, 20 Sep 2024 18:21:34 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/teaching/24_computational_quantum_dynamics/</guid><description>&lt;p>Modern experiments employing ultrafast pump-probe techniques or quantum simulation are opening up the exciting realm of far-from-equilibrium quantum dynamics. These developments have directed theoretical attention to questions about thermalization, non-equilibrium phases of matter, and transient dynamical phenomena. Since analytical approaches are typically limited, numerical methods are key to understand the theoretical models. This lecture will cover a variety of computational tools for the simulation of quantum dynamics, namely:&lt;/p>
 &lt;ol>
 &lt;li>Time-dependent single-particle Schrödinger equation
 &lt;ul>
@@ -21,7 +23,62 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
-&lt;p>Throughout the course, we will implement these methods in exercises and interactive sessions. The resulting codes will be used to investigate a variety of quantum dynamical phenomena, such as&lt;/p></description></item><item><title>Moksh Bhateja</title><link>https://www.computational-quantum.science/people/moksh/</link><pubDate>Thu, 19 Sep 2024 20:03:48 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/moksh/</guid><description/></item><item><title>Workshop on NQS for dynamics coming up</title><link>https://www.computational-quantum.science/news/20-nqs_workshop/</link><pubDate>Mon, 02 Sep 2024 14:09:43 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/news/20-nqs_workshop/</guid><description>&lt;p>In November we&amp;rsquo;ll be hosting a workshop on simulating the non-equilibrium dynamics with neural quantum states here in Regensburg. See the 
+&lt;p>Throughout the course, we will implement these methods in exercises and interactive sessions. The resulting codes will be used to investigate a variety of quantum dynamical phenomena, such as&lt;/p></description></item><item><title>Noé Salmeron</title><link>https://www.computational-quantum.science/people/noe/</link><pubDate>Thu, 19 Sep 2024 20:04:39 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/noe/</guid><description>&lt;p>Hi, I’m Noe!&lt;/p>
+&lt;p>I&amp;rsquo;m currently focused on developing efficient numerical techniques to simulate and study Floquet systems. My work involves leveraging machine learning methods, particularly neural network quantum states, together with theoretical insights to improve these simulations. More broadly, I’m interested in numerical approaches for studying complex systems in quantum physics.&lt;/p>
+&lt;h2 id="short-cv">Short CV&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2024&lt;/td>
+ &lt;td style="text-align: left">PhD student at University of Regensburg and IMPRS-QDC&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2022-2024&lt;/td>
+ &lt;td style="text-align: left">Master in physics at EPFL&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2019-2022&lt;/td>
+ &lt;td style="text-align: left">Bachelor in physics at EPFL&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Moksh Bhateja</title><link>https://www.computational-quantum.science/people/moksh/</link><pubDate>Thu, 19 Sep 2024 20:03:48 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/moksh/</guid><description>&lt;p>Hello!! I&amp;rsquo;m Moksh, a master&amp;rsquo;s student with academic interests in theoretical and computational condensed matter physics, the dynamics of quantum many-body systems, and machine learning. Currently, I am researching the evolution and dynamics of quantum systems, focusing on the spatial and temporal behavior of entanglement in many-body systems through an information theory framework. Recreationally, I enjoy watching movies, listening to music, traveling, swimming, and drawing portraits.&lt;/p>
+&lt;h2 id="short-cv">Short CV&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2024&lt;/td>
+ &lt;td style="text-align: left">Intern at FZ Jülich (PGI-8) and University of Regensburg, Germany&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2024&lt;/td>
+ &lt;td style="text-align: left">Intern at Queen&amp;rsquo;s University, Canada&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2024&lt;/td>
+ &lt;td style="text-align: left">Intern at Lille University &amp;amp; Sorbonne University, France&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2023&lt;/td>
+ &lt;td style="text-align: left">Intern at Jet Propulsion Laboratory - NASA, Caltech&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2020&lt;/td>
+ &lt;td style="text-align: left">B.Tech.+Masters in Solid State Physics at Indian institute of Space Science and Technology (IIST)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Workshop on NQS for dynamics coming up</title><link>https://www.computational-quantum.science/news/20-nqs_workshop/</link><pubDate>Mon, 02 Sep 2024 14:09:43 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/news/20-nqs_workshop/</guid><description>&lt;p>In November we&amp;rsquo;ll be hosting a workshop on simulating the non-equilibrium dynamics with neural quantum states here in Regensburg. See the 
 
 &lt;a href="https://events.hifis.net/event/1752" target="_blank">workshop website&lt;/a> for more information!&lt;/p></description></item><item><title>Neural Quantum States and Peaked Molecular Wave Functions: Curse or Blessing?</title><link>https://www.computational-quantum.science/publications/25_peaked_nqs/</link><pubDate>Thu, 15 Aug 2024 18:50:55 +0100</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/publications/25_peaked_nqs/</guid><description>&lt;p>The field of neural quantum states has recently experienced a tremendous progress, making them a competitive tool of computational quantum many-body physics. However, their largest achievements to date mostly concern interacting spin systems, while their utility for quantum chemistry remains yet to be demonstrated. Two main complications are the peaked structure of the molecular wave functions, which impedes sampling, and large number of terms in second quantised Hamiltonians, which hinders scaling to larger molecule sizes. In this paper we address these issues jointly and argue that the peaked structure might actually be key to drastically more efficient calculations. Specifically, we introduce a novel algorithm for autoregressive sampling without replacement and a procedure to calculate a computationally cheaper surrogate for the local energy. We complement them with a custom modification of the stochastic reconfiguration optimisation technique and a highly optimised GPU implementation. As a result, our calculations require substantially less resources and exhibit more than order of magnitude speedup compared to the previous works. On a single GPU we study molecules comprising up to 118 qubits and outperform the ``golden standard&amp;rsquo;&amp;rsquo; CCSD(T) benchmark in Hilbert spaces of about 10^15 Slater determinants, which is orders of magnitude larger than what was previously achieved. We believe that our work underscores the prospect of NQS for challenging quantum chemistry calculations and serves as a favourable ground for the future method development.&lt;/p></description></item><item><title>Master's project: Fermionic neural quantum states</title><link>https://www.computational-quantum.science/joinus/projects/2024-fermion_nqs/</link><pubDate>Wed, 10 Jul 2024 13:28:07 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/joinus/projects/2024-fermion_nqs/</guid><description>&lt;p>A central objective of our work is the advancement of numerical simulation techniques based on 
 
