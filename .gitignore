@@ -1,2 +1,5 @@
 .DS_Store
 public
+static/images/people/*.jpg
+static/images/people/*.jpeg
+static/images/people/*.svg
