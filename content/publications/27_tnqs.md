@@ -8,7 +8,7 @@ preprint: true
 journalref:
 journalurl:
 year: 2024
-arXiv: 2412.11830 
+arXiv: "2412.11830"
 highlight: false
 tags:
 categories:
