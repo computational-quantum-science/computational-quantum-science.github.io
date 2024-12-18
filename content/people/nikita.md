@@ -4,7 +4,7 @@ date: 2024-09-19T20:03:48+02:00
 draft: false
 position: "Master student"
 image: "/images/people/nikita.png"
-email: ""
+email: "bi5hbGVydEBmei1qdWVsaWNoLmRl"
 googlescholar: ""
 github: ""
 arXiv: ""
