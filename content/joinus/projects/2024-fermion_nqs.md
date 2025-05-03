@@ -2,7 +2,7 @@
 title: "Master's project: Fermionic neural quantum states"
 date: 2024-07-10T13:28:07+02:00
 draft: false
-active: true
+active: false
 tags:
 categories:
 ---

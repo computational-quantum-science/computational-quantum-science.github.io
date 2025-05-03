@@ -1,7 +1,7 @@
 ---
 title: "Moksh Bhateja"
 date: 2024-09-19T20:03:48+02:00
-draft: false
+draft: true
 position: "Master student"
 image: "/images/people/moksh.png"
 email: "bW9rc2hiaGF0ZWphODVAZ21haWwuY29t"
