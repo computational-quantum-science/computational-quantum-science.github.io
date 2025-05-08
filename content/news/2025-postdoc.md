@@ -6,4 +6,4 @@ draft: false
 
 We are looking for a motivated postdoc to join our team and work on new approaches to tackle the quantum many-body problem with machine learning techniques. [See the opening for details](https://www.fz-juelich.de/en/careers/jobs/2025-106).
 
-Review of applications will start on May 5th.
+**Update:** Review of applications has started. 
