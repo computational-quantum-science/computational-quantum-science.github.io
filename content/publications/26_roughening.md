@@ -2,14 +2,15 @@
 title: "Roughening dynamics of interfaces in two-dimensional quantum matter"
 date: 2024-12-16T12:01:49+01:00
 draft: false
-image: 
+image: "/media/publications/26_roughening/roughening.png" 
 authors: Wladislaw Krinitsin, Niklas Tausendpfund, Matteo Rizzi, Markus Heyl, and Markus Schmitt
-preprint: true
-journalref:
-journalurl:
-year: 2024
+preprint: false
+journalref: Phys. Rev. Lett. 134, 240402 (2025)
+journalurl: https://journals.aps.org/prl/abstract/10.1103/9bsk-x9rw
+year: 2025
 arXiv: 2412.10145
-highlight: false
+highlight: true
+summary: "We discovered, that the smooth-interface regime below the roughening transition of the two-dimensional quantum Ising model leads to prethermal plateauxin the non-equilibrium dynamics of domain wall initial conditions."
 tags:
 categories:
 ---
