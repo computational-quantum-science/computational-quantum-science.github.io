@@ -2,12 +2,12 @@
 title: "Many-body dynamics with explicitly time-dependent neural quantum states"
 date: 2024-12-17T07:45:41+01:00
 draft: false
-image: 
+image: "/media/publications/27_tnqs/tnqs.png" 
 authors: Anka Van de Walle, Markus Schmitt, Annabelle Bohrdt
-preprint: true
-journalref:
-journalurl:
-year: 2024
+preprint: false
+journalref: "Mach. Learn.: Sci. Technol. 6 045011 (2025)"
+journalurl: https://iopscience.iop.org/article/10.1088/2632-2153/ae0f39
+year: 2025
 arXiv: "2412.11830"
 highlight: false
 tags:
