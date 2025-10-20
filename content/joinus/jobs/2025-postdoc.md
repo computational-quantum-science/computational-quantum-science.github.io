@@ -2,7 +2,7 @@
 title: "Postdoc - Computational quantum many-body physics"
 date: 2025-04-14T19:42:12+02:00
 draft: false
-active: true
+active: false
 tags:
 categories:
 ---
