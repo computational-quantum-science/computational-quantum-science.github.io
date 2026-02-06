@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Computational Quantum Science</title><link>https://www.computational-quantum.science/people/</link><description>Recent content in People on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Sat, 18 Oct 2025 10:49:55 +0200</lastBuildDate><atom:link href="https://www.computational-quantum.science/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Massimo Solinas</title><link>https://www.computational-quantum.science/people/massimo/</link><pubDate>Sat, 18 Oct 2025 10:49:55 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/massimo/</guid><description/></item><item><title>Stefan Brinster</title><link>https://www.computational-quantum.science/people/stefan/</link><pubDate>Sat, 03 May 2025 16:12:39 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/stefan/</guid><description/></item><item><title>Valentin Schwarz</title><link>https://www.computational-quantum.science/people/valentin/</link><pubDate>Sat, 03 May 2025 16:11:34 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/valentin/</guid><description/></item><item><title>Ali Can Yildirim</title><link>https://www.computational-quantum.science/people/ali/</link><pubDate>Wed, 18 Dec 2024 12:46:29 +0100</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/ali/</guid><description>&lt;p>Hi, I am Ali!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Computational Quantum Science</title><link>https://www.computational-quantum.science/people/</link><description>Recent content in People on Computational Quantum Science</description><generator>Hugo</generator><language>en-us</language><managingEditor>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</managingEditor><webMaster>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</webMaster><lastBuildDate>Fri, 06 Feb 2026 16:14:32 +0100</lastBuildDate><atom:link href="https://www.computational-quantum.science/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Sven Kožić</title><link>https://www.computational-quantum.science/people/sven/</link><pubDate>Fri, 06 Feb 2026 16:14:32 +0100</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/sven/</guid><description>&lt;p>Hello! I am Sven. This is how ChatGPT describes me:&lt;!-- raw HTML omitted -->
+I’m currently focused on developing efficient numerical techniques to simulate and analyze quantum many-body systems, especially where frustration, tensor-network structure, and quantum-information “resources” (like entanglement/coherence/magic) matter. My day-to-day work mixes theory with implementation: building and debugging workflows in Python/JAX and Julia, working with tensor networks (MPS/TTN/TCI-style decompositions) and neural-network quantum states, and caring a lot about reproducibility, performance, and clean computational pipelines (often on HPC). I tend to prefer concrete, step-by-step explanations that connect the physics intuition directly to arrays, operators, and code that I can run and verify.&lt;/p>
+&lt;h2 id="short-cv">Short CV&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">since 2026&lt;/td>
+ &lt;td style="text-align: left">&lt;em>Postdoc at 
+
+&lt;a href="https://www.fz-juelich.de/de/pgi/pgi-8" target="_blank">FZ Jülich (PGI-8)&lt;/a>&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2021-2026&lt;/td>
+ &lt;td style="text-align: left">&lt;em>PhD in computer science at 
+
+&lt;a href="https://www.fer.unizg.hr/en" target="_blank">University of Zagreb&lt;/a>&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2021-2026&lt;/td>
+ &lt;td style="text-align: left">&lt;em>I worked at 
+
+&lt;a href="https://www.irb.hr/eng/" target="_blank">Ruđer Bošković Institute&lt;/a>&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Massimo Solinas</title><link>https://www.computational-quantum.science/people/massimo/</link><pubDate>Sat, 18 Oct 2025 10:49:55 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/massimo/</guid><description/></item><item><title>Stefan Brinster</title><link>https://www.computational-quantum.science/people/stefan/</link><pubDate>Sat, 03 May 2025 16:12:39 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/stefan/</guid><description/></item><item><title>Valentin Schwarz</title><link>https://www.computational-quantum.science/people/valentin/</link><pubDate>Sat, 03 May 2025 16:11:34 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/valentin/</guid><description/></item><item><title>Ali Can Yildirim</title><link>https://www.computational-quantum.science/people/ali/</link><pubDate>Wed, 18 Dec 2024 12:46:29 +0100</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/ali/</guid><description>&lt;p>Hi, I am Ali!
 For my master&amp;rsquo;s thesis, I am investigating the ability of neural networks to find the ground state of correlated fermionic systems. The overarching goal is to better understand the breakdown of superconductivity in disordered superconducting systems.&lt;/p></description></item><item><title>Noé Salmeron</title><link>https://www.computational-quantum.science/people/noe/</link><pubDate>Thu, 19 Sep 2024 20:04:39 +0200</pubDate><author>bWFya3VzLnNjaG1pdHRAZnotanVlbGljaC5kZQ== (Markus Schmitt)</author><guid>https://www.computational-quantum.science/people/noe/</guid><description>&lt;p>Hi, I’m Noe!&lt;/p>
 &lt;p>I&amp;rsquo;m currently focused on developing efficient numerical techniques to simulate and study Floquet systems. My work involves leveraging machine learning methods, particularly neural network quantum states, together with theoretical insights to improve these simulations. More broadly, I’m interested in numerical approaches for studying complex systems in quantum physics.&lt;/p>
 &lt;h2 id="short-cv">Short CV&lt;/h2>
