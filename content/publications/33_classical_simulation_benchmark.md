@@ -8,7 +8,7 @@ preprint: true
 journalref:
 journalurl:
 year: 2025
-arXiv: "2511.19340"
+arXiv: "2511.19340~"
 highlight: false
 tags:
 categories:
