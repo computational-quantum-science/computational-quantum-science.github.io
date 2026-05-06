@@ -31,7 +31,7 @@
     {{ range $pub_list }}
       {{ if not .Params.Preprint }}
         {{ if eq .Params.Year $year }}
-          {{ partial "partials/publication_ref.html" 
+          {{ partial "publication_ref.html" 
             (dict "title" .Title
                   "permalink" .Permalink
                   "authors" .Params.authors 

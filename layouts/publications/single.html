@@ -8,7 +8,7 @@
       <h1 class="publication-single__title">{{ .Title }}</h1>
     </div>
   </div>
-  {{ partial "partials/publication_ref.html" 
+  {{ partial "publication_ref.html" 
       (dict "authors" .Params.authors 
             "journalurl" .Params.Journalurl 
             "journalref" .Params.Journalref 
