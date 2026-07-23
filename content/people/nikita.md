@@ -1,7 +1,7 @@
 ---
 title: "Nikita Alert"
 date: 2024-09-19T20:03:48+02:00
-draft: false
+draft: true
 position: "Master student"
 image: "/images/people/nikita.png"
 email: "bi5hbGVydEBmei1qdWVsaWNoLmRl"
