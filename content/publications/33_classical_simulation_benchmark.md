@@ -5,8 +5,8 @@ draft: false
 image: "/media/publications/33_classical_simulation_benchmark/class_sim.png"
 authors: J. Vovrosh, S. Julià-Farré, W. Krinitsin, M. Kaicher, F. Hayes, E. Gottlob, A. Kshetrimayum, K. Bidzhiev, S. B. Jäger, M. Schmitt, J. Tindall, C. Dalyac, T. Mendes-Santos, A. Dauphin
 preprint: false
-journalref: accepted in Phys. Rev. Res.
-journalurl:
+journalref: Phys. Rev. Research 8, 023311 (2026)
+journalurl: https://doi.org/10.1103/x4gs-g63p
 year: 2026
 arXiv: "2511.19340"
 highlight: false

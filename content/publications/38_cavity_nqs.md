@@ -7,7 +7,7 @@ authors: N. Salmeron, M. Bukov, M. Schmitt
 preprint: true
 journalref:
 journalurl:
-year:
+year: 2026
 arXiv: 2606.14352
 highlight: false
 tags:
